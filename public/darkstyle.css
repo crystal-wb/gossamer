@@ -1,0 +1,67 @@
+ @font-face{
+            font-family: the_dream;
+            src: url(/gossamer/fonts/the_dream.otf);
+            }
+            
+@font-face{
+            font-family: peas_carrots_extras;
+            src: url(/gossamer/fonts/peas_carrots_extras.ttf);
+            }
+            
+@font-face{
+            font-family: peas_carrots;
+            src: url(/gossamer/fonts/peas_carrots.ttf);
+            }
+            
+@font-face{
+            font-family: blessed;
+            src: url(/gossamer/fonts/blessed___.otf);
+            }
+body{
+    background-color: black;
+    margin: 0;
+    text-align: center;
+}
+
+header{
+    background: url(gossamer_banner.png);
+    background-position: top center;
+    background-repeat: no-repeat;
+    height:300px;
+    background-size: cover;
+}
+
+#options{
+    font-family: the_dream;
+    margin:auto;
+}
+a{
+    text-decoration: none;
+    color: #99cc33;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+h1{
+    color: white;
+    font-family: blessed;
+}
+
+h2{
+    color:white;
+    font-family: the_dream,
+}
+p{
+    color: white;
+    font-family: peas_carrots;
+    width: 90%;
+    margin: auto;
+}
+
+#question{
+    font-family: the_dream;
+    color:white;
+}
+div{
+    height: 50px;
+}
