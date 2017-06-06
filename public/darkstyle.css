@@ -1,21 +1,21 @@
- @font-face{
-            font-family: the_dream;
-            src: url(/gossamer/fonts/the_dream.otf);
+@font-face{
+            font-family: beautiful ones;
+            src: url(/the-beautiful-ones.ttf);
             }
             
 @font-face{
-            font-family: peas_carrots_extras;
-            src: url(/gossamer/fonts/peas_carrots_extras.ttf);
+            font-family: to the point;
+            src: url(/To-The-Point.ttf);
             }
             
 @font-face{
-            font-family: peas_carrots;
-            src: url(/gossamer/fonts/peas_carrots.ttf);
+            font-family: peas-carrots;
+            src: url(/peas-carrots.ttf);
             }
             
 @font-face{
-            font-family: blessed;
-            src: url(/gossamer/fonts/blessed___.otf);
+            font-family: dream;
+            src: url(/the-dream.otf);
             }
 body{
     background-color: black;
@@ -32,8 +32,9 @@ header{
 }
 
 #options{
-    font-family: the_dream;
+    font-family: to the point;
     margin:auto;
+    font-size: 50px;
 }
 a{
     text-decoration: none;
@@ -43,24 +44,28 @@ a{
 }
 
 h1{
-    color: white;
-    font-family: blessed;
+    color: #003300;
+    font-family: dream;
+    font-size: 80px;
+    background-color: rgba(153,204,51,0.5);
 }
 
 h2{
-    color:white;
-    font-family: the_dream,
+    color:#ccff33;
+    font-family: peas-carrots,
 }
 p{
     color: white;
-    font-family: peas_carrots;
+    font-family: to the point;
     width: 90%;
     margin: auto;
+    font-size: 45px;
 }
 
 #question{
-    font-family: the_dream;
-    color:white;
+    font-family: peas-carrots;
+    color: #ccff33;
+    font-size: 30px;
 }
 div{
     height: 50px;
